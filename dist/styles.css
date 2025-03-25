@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Segoe UI Variable, Microsoft YaHei, sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -554,55 +554,84 @@ video {
   display: none;
 }
 
-.rounded-button {
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-radius-button-radius-small {
   border-radius: 2px;
 }
 
-.bg-primaryLow {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 59 59 / var(--tw-bg-opacity, 1));
-}
-
-.bg-primary-normal {
+.bg-component-button-primary-normal {
   --tw-bg-opacity: 1;
   background-color: rgb(153 46 138 / var(--tw-bg-opacity, 1));
 }
 
-.px-4 {
+.pb-\[5px\] {
+  padding-bottom: 5px;
+}
+
+.pl-4 {
   padding-left: 1rem;
+}
+
+.pr-4 {
   padding-right: 1rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.pt-\[5px\] {
+  padding-top: 5px;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-left {
+  text-align: left;
 }
 
-.font-bold {
-  font-weight: 700;
+.font-body-en-regular-font-family {
+  font-family: Arial-Regular, sans-serif;
 }
 
-.text-primary-normal {
-  --tw-text-opacity: 1;
-  color: rgb(153 46 138 / var(--tw-text-opacity, 1));
+.text-body-en-regular-font-size {
+  font-size: 14px;
 }
 
-.text-primaryHigh {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+.font-body-en-regular-font-weight {
+  font-weight: 400;
 }
 
-.text-white {
+.leading-body-en-regular-line-height {
+  line-height: 22px;
+}
+
+.text-semantic-text-other-white-back {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.hover\:bg-primary-hover:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(122 18 107 / var(--tw-bg-opacity, 1));
 }
