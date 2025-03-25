@@ -1,16 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-    content: ["./src/**/*.{html,js}"], // 监测你的 HTML 和 JS 文件
+window.tailwindConfig = {
     theme: {
-      extend: {
-        colors: {
-          primary: "#992E8A", // 自定义颜色
+        extend: {
+            colors: {
+                primary: "#992E8A",
+            },
+            fontFamily: {
+                sans: ["Inter", "sans-serif"],
+            },
         },
-        fontFamily: {
-          sans: ["Inter", "sans-serif"], // 自定义字体
-        },
-      },
     },
-    plugins: [],
-  };
-  
+};
