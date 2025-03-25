@@ -4,7 +4,7 @@ module.exports = {
     theme: {
       extend: {
         colors: {
-          primary: "#1DA1F2", // 自定义颜色
+          primary: "#992E8A", // 自定义颜色
         },
         fontFamily: {
           sans: ["Inter", "sans-serif"], // 自定义字体
